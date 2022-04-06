@@ -1,0 +1,211 @@
+/*ОБНУЛЯЮЩИЙ СТИЛЬ */
+* {padding: 0;margin: 0;border: 0;}
+*,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active {outline: none;}
+a:focus,a:active {outline: none;}
+nav,footer,header,aside {display: block;}
+html,body {height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: 400;}
+a{color: black;}
+/*ОБНУЛЯЮЩИЙ СТИЛЬ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+   background: #F5F3F4;
+}
+.nav {
+   padding: 20px 0 0 0;
+}
+.container {
+   max-width: 1260px;
+   margin: auto;
+}
+.nav__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav__logo {
+}
+.nav__list {
+   display: flex;
+}
+.nav__list li{
+   padding-left: 48px;
+}
+.nav__list a{
+   font-size: 16px;
+   line-height: 24px;
+   color: rgba(18, 16, 12, 0.7);
+}
+.nav__list a:hover{
+   border-bottom: 2px solid rgba(18, 16, 12, 0.7);
+   padding-bottom: 5px;
+}
+.nav__btn a{
+   font-size: 14px;
+   line-height: 20px;
+   color: #F9F9F9;
+   background: #12100C;
+   border-radius: 12px;
+   padding: 6px 23px;
+}
+
+
+.always {
+   margin-top: 154px;
+}
+
+.always__row {
+   display: flex;
+}
+.always__content {
+}
+.always__title {
+   font-weight: bold;
+   font-size: 80px;
+   line-height: 88px;
+   color: #12100C;
+}
+.always__text {
+   margin-top: 38px;
+   font-size: 23px;
+   line-height: 32px;
+   color: rgba(18, 16, 12, 0.7);
+   width: 460px;
+}
+.always__btn {
+   margin-top: 50px;
+   display: block;
+}
+.always__btn a{
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 22px;
+   text-align: center;
+   color: #12100C;
+   background: #FFAE33;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+   border-radius: 16px;
+   padding: 11px 46px;
+}
+
+.select {
+   margin-top: 176px;
+}
+
+.select__title {
+   font-weight: bold;
+   font-size: 54px;
+   line-height: 64px;
+   text-align: center;
+}
+.select__title1 {
+   font-size: 54px;
+   line-height: 64px;
+   text-align: center;
+   text-decoration-line: line-through;
+   color: #999795;
+}
+.select__title2 {
+font-size: 54px;
+line-height: 64px;
+text-align: center;
+text-decoration-line: line-through;
+color: #999795;
+
+}
+.select__title3 {
+   font-weight: bold;
+   font-size: 54px;
+   line-height: 64px;
+   text-align: center;
+   color: #12100C;
+}
+
+.think {
+   margin-top: 339px;
+}
+.think__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.think__content {
+   margin-right: 70px;
+}
+.think__title {
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 40px;
+   color: #12100C;
+}
+.think__text {
+   width: 648px;
+   font-size: 24px;
+   line-height: 32px;
+   color: rgba(18, 16, 12, 0.7);
+}
+.think__btn{
+   margin-top: 158px;
+}
+.think__btn a{
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+   background: #FFAE33;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+   border-radius: 10.5px;
+   color: #12100C;
+   padding: 9px 18px;
+}
+.think__btn a:last-child{
+   background: #FFB0AE;
+}
+.think__img {
+}
+
+.remote {
+   margin-top: 337px;
+}
+.container {
+}
+.remote__title {
+   padding-bottom: 47px;
+   font-weight: bold;
+   font-size: 54px;
+   line-height: 72px;
+   text-align: center;
+   color: #12100C;
+}
+.remote__img {
+}
+.remote__text {
+   padding-top: 49px;
+   margin: 0 auto;
+   width: 877px;
+   font-size: 24px;
+   line-height: 32px;
+   text-align: center;
+   color: rgba(18, 16, 12, 0.7);
+   padding-bottom: 100px;
+}
+
+.complogo img{
+   margin: 0 auto;
+   display: block;
+}

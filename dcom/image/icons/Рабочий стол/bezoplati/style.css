@@ -1,0 +1,164 @@
+body{
+   font-family: 'Open Sans', sans-serif;  
+}
+
+.nav {
+   margin-top: 38px;
+   border-bottom: 1px solid #990000;;
+}
+.container {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+.nav__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav__logo {
+}
+.nav__list {
+   display: flex;
+   list-style: none;
+}
+.nav__list a{
+   padding-left: 41px;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 27px;
+   letter-spacing: 0.03em;
+   color: #000000;
+   text-decoration: none;
+}
+.info {
+   padding-top: 244px;
+   background: url('Vector\ \(1\).png')right no-repeat;
+   
+}
+.info__title {
+   font-size: 45px;
+line-height: 53px;
+letter-spacing: 0.03em;
+
+color: #000000;
+
+}
+.info__subtitle {
+   font-size: 28px;
+   line-height: 33px;
+   letter-spacing: 0.03em;
+   color: #333333;
+   padding-top: 17px;
+}
+.info__btn{
+   padding: 67px 0 0 0;
+display: inline-block;
+padding-bottom: 231px;
+}
+.info__btn a{
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 27px;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 16px 30px;
+   background: #990000;
+}
+
+
+.our {
+   background: #990000;
+}
+.wrapper {
+   background: url('Group.png')right center no-repeat;
+}
+.container {
+
+}
+.our__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.our__content {
+   max-width: 510px;
+}
+.our__title {
+   padding-top: 148px;
+   padding-bottom: 26px;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 49px;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+
+}
+.our__text {
+   font-size: 18px;
+line-height: 29px;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+padding-bottom: 147px;
+}
+.our__btn a{
+   color: #990000;
+   background: #FFFFFF;
+   font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: right;
+letter-spacing: 0.03em;
+
+color: #990000;
+text-decoration: none;
+padding: 16px 30px;
+}
+
+
+.working {
+}
+.container {
+}
+.working__title {
+   text-align: center;
+   padding-top: 107px;
+   font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+letter-spacing: 0.03em;
+color: #000000;
+
+}
+.working__line {
+   margin-top: 14px;
+   margin-left: 286px;
+   width: 100px;
+   height: 10px;
+   background: #990000;
+}
+
+.working-card__row {
+   display: flex;
+   justify-content: space-between;
+}
+.working1 {
+}
+.working1__text {
+   max-width: 370px;
+   padding-top: 90px;
+font-size: 18px;
+line-height: 29px;
+letter-spacing: 0.03em;
+
+color: #000000;
+
+}
+.working1__text span{
+   font-weight: bold;
+}
+.working2 {
+}
